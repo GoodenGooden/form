@@ -1,0 +1,1043 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+
+}
+
+.container {
+ /* background-color: rgba(7, 55, 63, 1); */
+ background-color: rgba(2, 25, 29, 1) ;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.search__container {
+  margin: auto;
+  position: relative;
+  width: 53%;
+  border-style: solid;
+  border-color: rgba(14, 70, 79, 1);
+  border-width: thin;
+  top: 3%;
+  height: 1.5rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  right: 2rem;
+  
+}
+
+.search-div {
+  display: flex;
+  gap: .8rem;
+  position: absolute;
+  top: .3rem;
+  left: 40%;
+ 
+  color: whitesmoke;
+  font-size: .6rem;
+
+}  
+
+.image {
+  width: 4rem;
+  
+} 
+
+.ticket {
+  background-color: whitesmoke;
+  text-transform: uppercase;
+  padding: .5rem;
+  font-size: .6rem;
+  border-radius: .3rem;
+  height: .8rem;
+  top: .3rem;
+  position: absolute;
+  left: 87%;
+  bottom: .2rem;
+  padding-right: 1rem;
+} 
+
+.icon-right {
+  position: absolute;
+  padding: .1rem;
+}
+
+
+.user__container {
+  margin: auto;
+  max-width: 350px;
+  height: 80%;
+  position: relative;
+ top: 10%;
+ border-radius: 1rem;
+ border-color: rgba(14, 70, 79, 1);
+  border-width: thin;
+  border-style: solid;
+ /*box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);   */
+
+}
+
+.ticket-step {
+  font-size: .6rem;
+  margin-top: 1.5rem;
+  
+}
+
+.ticket-selection {
+  display: flex;
+  color: whitesmoke;
+  border-radius: .1rem;
+  border-color: rgba(4, 30, 35, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+  border-width: .2rem;
+position: absolute;
+top: -.4rem;
+gap: 11rem;
+
+}
+
+
+
+.border {
+  border-color: rgba(36, 160, 181, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+width: 7rem;
+
+}
+.required-message {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+
+.ticket-text {
+  font-size: large;
+  margin-top: 1rem;
+  font-family: "Chakra Petch", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.ticket-div {
+  margin: auto;
+  background-color: rgba(8, 37, 43, 1) ;
+  height: 70%;
+  width: 60%;
+  top: 4rem;
+  border-radius: 1rem;
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+ padding: 2rem 3.5rem;
+  position: relative;
+  
+}
+
+.fest-div {
+  height: 8rem;
+  padding: 0 9rem;
+  left: -2.5rem;
+  background-color: rgba(8, 37, 43, 1);
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 1.5rem;
+  
+  
+}
+
+
+.fest {
+  font-family: "Road Rage";
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: 2.1rem;
+  position: absolute;
+  margin-top: -.8rem;
+  left: 3.5rem;
+  padding: 1rem 0;
+}
+
+.fest-text {
+  text-align: center;
+  font-size: .7rem;
+  top: 2.7rem;
+  left: 2.5rem;
+  line-height: 1.1rem;
+  color: rgba(250, 250, 250, 1);
+    font-family: "Roboto" serif;
+    font-weight: 100;
+    font-style: normal;
+    position: absolute;
+    
+  
+}
+
+.text {
+  margin: 0;
+  
+}
+
+.ticket-border {
+  border-radius: .1rem;
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+  border-width: .2rem;
+  width: 18rem;
+  margin-left: -2.8rem;
+}
+
+.select-ticket {
+  font-size: x-small;
+  color: rgba(250, 250, 250, 1);
+  font-family: "Roboto" serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: -2.5rem;
+}
+.access-div {
+  background-color: rgba(2, 25, 29, 1);
+  height: auto;
+  border-radius: 1rem;
+  margin-left: -3.2rem;
+  width: 20rem;
+
+}
+
+.vip-ticket {
+  display: flex;
+  justify-content: space-between;
+   gap: 1rem;
+   padding: 0 .5rem;
+   
+}
+
+.regular-text {
+  font-family: "Roboto" serif;
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-size: x-small;
+  line-height: .9rem;
+}
+
+
+.regular-text1 {
+  font-family: "Roboto" serif;
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-size: small;
+  font-weight: 700;
+  margin-left: -.1rem;
+  padding: 0 ;
+}
+
+
+.regular-number {
+  font-size: x-small;
+  color: rgba(250, 250, 250, 1);
+  
+}
+
+.regular-access {
+  height: auto;
+  width: 9rem;
+  padding: .3rem .4rem;
+  border-radius: .5rem;
+  position: relative;
+  border-color: rgba(14, 70, 79, 1);;
+  border-style: solid;
+  border-width: thin;
+  
+  
+  }
+  
+
+.vip-access {
+
+width: 8rem;
+border-radius: .5rem;
+position: relative;
+height: auto;
+padding: .3rem .4rem;
+border-color: rgba(14, 70, 79, 1);
+border-style: solid;
+border-width: thin;
+}
+
+.vvip-access {
+  
+  height: auto;
+  width: 8rem;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem .4rem;
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+}
+
+.number-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.type-number {
+  height: 1.5rem;
+  width: 17.5rem;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem .4rem;
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+ margin-left: -2.5rem;
+ background-color: rgba(14, 70, 79, 1);
+ outline: none;
+ color: whitesmoke;
+}
+
+.chevron-down {
+  color: whitesmoke;
+  position: absolute;
+  left: 17.5rem;
+  top: 19.4rem;
+}
+
+.type-text {
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-size: x-small;
+  margin-left: -2.5rem;
+}
+
+.button-cancel {
+  height: 2rem;
+  width: 70%;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem 4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(8, 37, 43, 1);
+  border-style: solid;
+  border-width: thin;
+color: rgba(14, 70, 79, 1);
+font-family: "Roboto" serif;
+font-size: x-small;
+}
+
+.button-next {
+  height: 2rem;
+  width: 70%;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem 4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(36, 160, 181, 1) ;
+  border-style: solid;
+  border-width: thin;
+  color: whitesmoke;
+  font-size: x-small;
+  font-family: "Roboto" serif;
+}
+
+.button-div {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  position: relative;
+  top: 1.6rem;
+
+}
+
+.upload-div {
+  height: 37%;
+  padding: 0 9rem;
+  left: -2.5rem;
+  background-color: rgba(8, 37, 43, 1);
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 1.5rem;
+  
+  
+
+}
+
+.upload-semi-div {
+  height: 60%;
+  width: 80%;
+  left: 2rem;
+  top: 2rem;
+  background-color: rgba(5, 34, 40, 1);
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: thin;
+  position: absolute;
+  bottom: 1.5rem;
+  
+}
+
+.upload-main-div {
+  height: 8rem;
+  width: 50%;
+  background-color: rgba(36, 160, 181, 0.5);
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width: thin;
+  position: absolute;
+  margin: auto;
+  top: -1rem;
+  left: 3.5rem;
+  border-radius: 1rem;
+
+}
+
+.upload-main-div1 {
+  height: 8rem;
+  width: 60%;
+  background-color: rgba(36, 160, 181, 0.5);
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width: thin;
+  position: absolute;
+  margin: auto;
+  top: -1rem;
+  left: 3rem;
+  border-radius: 1rem;
+
+}
+
+
+.regular-access, .vip-access, .vvip-access {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid rgba(36, 160, 181, 0.5);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.regular-access:hover, .vip-access:hover, .vvip-access:hover {
+  background-color: rgba(36, 160, 181, 0.5);
+}
+
+.selected {
+  background-color: rgba(36, 160, 181, 0.5);  /* Green background for selected ticket */
+  color: white;
+  border: 1px solid rgba(36, 160, 181, 0.5);
+}
+
+
+
+.icon-cloud {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5rem;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.drag-text {
+  margin: 0;
+  font-size: x-small;
+  color: whitesmoke;
+  position: absolute;
+  top: 3rem;
+  left: .2rem;
+  padding: .8rem .2rem;
+  
+}
+
+.drag-text1 {
+  margin: 0;
+  font-size: x-small;
+  color: whitesmoke;
+  position: absolute;
+  top: 4rem;
+  left: 2.2rem;
+  padding: 1rem 0;
+}
+
+/*.border-style {
+  border-radius: .1rem;
+  border-color: rgba(4, 30, 35, 1);
+  border-style: solid;
+  border-bottom-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+  border-width: .2rem;
+  top: .1rem;
+  position: absolute;
+  
+}
+
+*/
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+ 
+  
+}
+
+.style {
+  border-top: 1rem;
+  border-color: rgba(7, 55, 63, 1);
+  border-style: solid;
+  border-bottom-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+  border-width: .2rem;
+  width: 17.5rem;
+  margin-left: -2.8rem;
+padding: .3rem;
+}
+
+.input-name {
+  height: 1.5rem;
+  width: 17.5rem;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem .4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(2, 25, 29, 1);
+  border-style: solid;
+  border-width: thin;
+ margin-left: -2.5rem;
+ outline: none;
+ color: whitesmoke;
+}
+
+.input-email {
+  height: 1.5rem;
+  width: 17.5rem;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem .4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(2, 25, 29, 1);
+  border-style: solid;
+  border-width: thin;
+ margin-left: -2.5rem;
+ color: whitesmoke;
+ outline: none;
+}
+
+.input-request {
+  height: 3rem;
+  width: 17.5rem;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem .4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(2, 25, 29, 1);
+  border-style: solid;
+  border-width: thin;
+ margin-left: -2.5rem;
+ color: whitesmoke;
+ outline: none;
+}
+
+.name-text {
+  color: whitesmoke;
+  margin-left: -2.5rem;
+  font-family: "Roboto" serif !important;
+  font-size: small;
+  
+}
+
+.cancel-div {
+  display: flex;
+  padding: 1rem 0;
+  margin-left: -3rem;
+  gap: 1rem;
+  margin-top: .2rem;
+  
+}
+
+.button-back {
+  height: 2rem;
+  width: 60%;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem 4rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(8, 37, 43, 1);
+  border-style: solid;
+  border-width: thin;
+color: rgba(14, 70, 79, 1);
+font-family: "Roboto" serif;
+font-size: x-small;
+}
+
+.button-ticket {
+  height: 2rem;
+  width: 60%;
+  border-radius: .5rem;
+  position: relative;
+  padding: .3rem 3.5rem;
+  border-color: rgba(14, 70, 79, 1);
+  background-color: rgba(36, 160, 181, 1) ;
+  border-style: solid;
+  border-width: thin;
+color: rgba(14, 70, 79, 1);
+font-family: "Roboto" serif;
+font-size: x-small;
+}
+
+.search__container1 {
+  margin: auto;
+  position: relative;
+  width: 53%;
+  border-style: solid;
+  border-color: rgba(14, 70, 79, 1);
+  border-width: thin;
+  top: 3%;
+  height: 1.5rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  right: 2rem;
+  
+}
+
+.user__container1 {
+  margin: auto;
+  max-width: 350px;
+  height: 99%;
+  position: relative;
+ top: -5%;
+ border-radius: 1rem;
+ border-color: rgba(14, 70, 79, 1);
+  border-width: thin;
+  border-style: solid;
+ /*box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);   */
+
+}
+
+.ticket-selection1 {
+  display: flex;
+  color: whitesmoke;
+  border-radius: .1rem;
+  border-color: rgba(4, 30, 35, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+  border-width: .2rem;
+position: absolute;
+top: .1rem;
+gap: 11rem;
+}
+
+.ticket-booked {
+  margin: auto;
+  left: 2rem;
+  top: 5rem;
+  position: absolute;
+}
+
+.booked-text {
+color: whitesmoke;
+font-size: 1.4rem;
+margin: 0;
+margin-left: 1.5rem;
+
+  font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.email-text {
+font-size: small;
+color: whitesmoke;
+margin: 0;
+
+  font-family: "Alatsi", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.main-ticket-div {
+  top: 12rem;
+  left: 1.3rem;
+  position: absolute;
+
+  margin: auto;
+  
+
+
+}
+
+.ticket-fest-div {
+  position: absolute;
+  top: 14rem;
+  left: 3.5rem;
+  
+  border-radius: 1rem;
+  border-color: rgba(36, 160, 181, 1);
+  border-style: solid;
+  border-width: thin;
+  height: 6rem;
+  width: 65%;
+}
+
+/*
+
+  border-radius: 1rem;
+  border-color: rgba(14, 70, 79, 1);
+  border-style: solid;
+  border-width: thin;
+ padding: 2rem 3.5rem;
+  position: relative;
+*/
+
+.text-1 {
+margin: 0;
+margin-left: 1rem;
+font-family: "Road Rage";
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.text-2 {
+margin: 0;
+font-size: x-small;
+color: whitesmoke;
+margin-left: 1.5rem;
+padding: .3rem 0;
+}
+
+.text-3 {
+margin: 0;
+font-size: x-small;
+color: whitesmoke;
+margin-left: 1.5rem;
+}
+
+.festive-div {
+padding: 1rem .5rem;
+}
+
+.image-border {
+  position: absolute;
+ 
+  left: 3rem;
+  border-color: rgba(36, 160, 181, 0.5);
+  border-radius: 1rem;
+  border-style: solid;
+  border-width:thick;
+  height: 6rem;
+  width: 50%;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-div {
+  position: absolute;
+  top: 13.7rem;
+  left: .2rem;
+  border-color: rgba(36, 160, 181, 0.5);
+  border-radius: 1rem;
+  border-style: solid;
+  border-width:thin;
+  height: 9rem;
+  width: 95%;
+
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+
+
+
+.div-11{
+  border-bottom: 1rem;
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width:thin;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  
+}
+
+.div-22{
+
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width:thin;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  
+}
+
+.div-33{
+  border-bottom: 1rem;
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width:thin;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  
+}
+
+.div-44{
+  border-bottom: 1rem;
+  border-color: rgba(36, 160, 181, 0.5);
+  border-style: solid;
+  border-width:thin;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  
+}
+
+
+
+
+
+
+/*
+border-color: rgba(36, 160, 181, 0.5);
+  height: 10%;
+  
+  border-style: solid;
+  border-width:thin;
+  padding: 0 1rem;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+
+*/
+
+.div-3 {
+   position: absolute;
+  border-color: rgba(36, 160, 181, 0.5);
+
+  
+  border-style: solid;
+  border-width:thin;
+  
+}
+
+/*
+border-color: rgba(36, 160, 181, 0.5);
+  height: 10%;
+  border-style: solid;
+  border-width:thin;
+  padding: 0 1.6rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+*/
+
+
+
+/*
+ border-color: rgba(36, 160, 181, 0.5);
+  height: 10%;
+  border-style: solid;
+  border-width:thin;
+  padding: 0 1rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  */
+.drop {
+  background-color: transparent;
+  border: none;
+  display: none;
+
+}
+
+.label-name {
+  font-size: x-small;
+  width: 6rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  background-color: transparent;
+  border: none;
+  padding: 0 .3rem;
+}
+
+.email-error {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.label-name1 {
+  font-size: .6rem;
+  color: grey;
+  font-weight: bold;
+  padding: 0 .3rem;
+}
+
+.barcode {
+  position: absolute;
+  top: 24rem;
+}
+
+@media (max-width: 390px) { 
+  
+  .user__container {
+    height: 85% !important;
+  }
+
+  
+
+}
+
+
+
+@media (max-width: 500px) {
+  .search__container {
+    margin: auto;
+    position: relative;
+    width: 85% !important;
+    border-style: solid;
+    border-color: rgba(14, 70, 79, 1);
+    border-width: thin;
+    top: 3%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    right: .5rem;
+    
+  }
+
+  .ticket-selection {
+    gap: 9rem;
+  }
+
+  .search__container1 {
+    width: 80%;
+    right: .1rem;
+  }
+
+  .user__container {
+    height: 85% !important;
+  }
+
+}
+
+@media (max-width: 690px) {
+  
+  .search__container {
+    margin: auto;
+    position: relative;
+    width: 70%;
+    border-style: solid;
+    border-color: rgba(14, 70, 79, 1);
+    border-width: thin;
+    top: 3%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    right: .5rem;
+
+    
+  }
+
+  .ticket-text1 {
+    display: none;
+  }
+
+  .ticket-selection1 {
+    display: none;
+  }
+ 
+
+}
+
+@media (max-width: 900px) {
+
+  .ticket {
+    padding: .5rem;
+    font-size: .6rem;
+    border-radius: .3rem;
+    height: .8rem;
+    top: 1rem;
+    position: absolute;
+    left: 70% !important;
+    bottom: .2rem;
+    
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+.search-div {
+  display: none;
+ 
+}
+
+.ticket {
+  padding: .5rem;
+  font-size: .6rem;
+  border-radius: .3rem;
+  height: .8rem;
+  top: .3rem;
+  position: absolute;
+  left: 80%;
+  bottom: .2rem;
+  padding-right: 1rem;
+
+}
+
+}
+
+/*
+
+ .user__container1 {
+    top: 3%;
+    height: 100%;
+  }
+
+  .main-ticket-div {
+    top: 10rem
+  }
+
+  .ticket-fest-div {
+    top: 12rem;
+  }
+
+  */
