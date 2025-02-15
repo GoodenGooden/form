@@ -89,7 +89,7 @@ function Tickets() {
                         <div className="label-name">{request}</div>
                     </div>
                     <div className="barcode">
-                  <img src="/Bar Code.png"  alt="img"/>
+                  <img src="/barcode.png"  alt="img"/>
 </div>
                 </div>
 
