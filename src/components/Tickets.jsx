@@ -27,7 +27,12 @@ function Tickets() {
                     <div className="ticket-selection1">
                         <p className="ticket-text1">Ready</p>
                         <p className="ticket-step">Step <span className="span-number">3</span> <span className="span-number">/</span> <span className="span-number">3</span> </p>
+                        <div className="bord1">
+        <div className="bor2"></div>
+        </div>
+                    
                     </div>
+                   
                 </div>
                 <div className="ticket-booked ">
                     <p className="booked-text">Your Ticket is Booked!</p>
