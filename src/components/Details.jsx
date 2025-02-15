@@ -78,7 +78,10 @@ setImage(image.url)
         <div className="ticket-selection">
         <p className="ticket-text">Attendee Details</p>
         <p className="ticket-step">Step <span className="span-number">2</span> <span className="span-number">/</span> <span className="span-number">3</span> </p>
+        <div className="bord">
+        <div className="bor1"></div>
         </div>
+</div>
         </div>
            <div className="ticket-div"> 
            <div className="upload-div">
@@ -140,4 +143,4 @@ setImage(image.url)
 
 export default Details
 
-'i want this message beside the input this input is required'
+"fix this code"

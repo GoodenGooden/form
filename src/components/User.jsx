@@ -41,8 +41,11 @@ function handleTicketTypeChange(ticket) {
         <div className= "ticket-selection">
         <p className="ticket-text">Ticket Selection</p>
         <p className="ticket-step">Step <span className="span-number">1</span> <span className="span-number">/</span> <span className="span-number">3</span> </p>
-
+        <div className="bord">
+          <div className="bor"></div>
         </div>
+        </div>
+
         <div className="ticket-div">
             
             <div className="fest-div">
@@ -117,7 +120,9 @@ Techember Fest ”25
         </div>
        
         </div>
+        
        </div>
+
         
     )
 }

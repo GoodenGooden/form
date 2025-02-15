@@ -95,18 +95,45 @@
   display: flex;
   color: whitesmoke;
   border-radius: .1rem;
-  border-color: rgba(4, 30, 35, 1);
+  position: absolute;
+top: -.4rem;
+gap: 10rem;
+
+}
+
+.bord {
+  border-color: rgba(14, 70, 79, 1);
   border-style: solid;
   border-top-style: hidden;
   border-left-style: hidden ;
   border-right-style: hidden;
-  border-width: .2rem;
-position: absolute;
-top: -.4rem;
-gap: 11rem;
-
+   width: 100%;
+   position: absolute;
+   top: 3rem;
+   
 }
 
+.bor {
+  border-color: rgba(36, 160, 181, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+   width: 7rem;
+   position: absolute;
+   
+}
+
+.bor1 {
+  border-color: rgba(36, 160, 181, 1);
+  border-style: solid;
+  border-top-style: hidden;
+  border-left-style: hidden ;
+  border-right-style: hidden;
+   width: 14rem;
+   position: absolute;
+   
+}
 
 
 .border {
@@ -1041,3 +1068,6 @@ border-color: rgba(36, 160, 181, 0.5);
   }
 
   */
+
+
+  
